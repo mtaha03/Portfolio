@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4e1a4f0c4.js" crossorigin="anonymous"></script>
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <a class="btn-3" href="#"><i class="fa-solid fa-angle-up"></i></a>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>T</span>aha</h1>
+                <div class="ul-div">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Muhammad</span> <br> Taha From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- <<<<<<<<<<<<<<    A B O U T   >>>>>>>>>>>>>>>>>>>>>>  -->
+
+    <div id="about">
+        <div class="container-2">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/WhatsApp Image 2024-10-11 at 06.27.31_e8eb1d23.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A dedicated and skilled professional with experience in HTML, CSS, bootstrap, JavaScript  and Adobe Illustrator. Focused on delivering high-quality software <br> an effective communication of technical details. Strong problem-solving skills <br> and ability to handle multiple tasks in fast paced environments.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desingning Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designed and developed responsive websites using HTML, CSS, and JavaScript</li>
+                            <li><span>Graphic Designing</span><br>Created visually compelling graphics and designs for various online clients</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2024-Now</span><br>Intership at Dev Decorators</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Superior college</span><br>ICS Computer Science  2021-2023</li>
+                            <li><span>CodeCrafters Academy</span><br>HTML, CSS, and JavaScript  2021-2023</li>
+                            <li><span>Al Huda Institute for Men</span><br>Quranic tafseer , Arabic Grammer, Hadess  2023-2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <<<<<<<<<<<<<<    S E R V I C E S   >>>>>>>>>>>>>>>>>>>>>>  -->
+
+
+
+    <div id="services">
+        <div class="container-2">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Created user-friendly web interfaces with a focus on accessibility and cross-browser compatibility. <br>Collaborated with designers, front-end developers, <br> and clients to develop project scopes</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designed and delivered high-quality digital assets for web and social media platforms, effectively collaborating with clients remotely to achieve their design goals</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bezier-curve"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Created visually compelling graphics and designs for various online clients, utilizing tools like Adobe Illustrator and Photoshop to meet specific branding and marketing need</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <<<<<<<<<<<<<<    P O R T F O L I O   >>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+    <div id="portfolio">
+        <div class="container-2">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Weather app provides real-time weather updates and forecasts, including current conditions, hourly and daily predictions.</p>
+                        <a href="https://github.com/mtaha03/Weather-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Ellamart</h3>
+                        <p>Ellamart is an online platform that allows users to browse, search, and purchase a wide range of products or services.</p>
+                        <a href="https://github.com/mtaha03/Ellamart"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Pictora</h3>
+                        <p>Pictora is a powerful, user-friendly image search platform designed to help you find high-quality images quickly and easily.</p>
+                        <a href="https://github.com/mtaha03/Pictora"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- <<<<<<<<<<<<<<    C O N T A C T   >>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+    <div id="contect">
+        <div class="container-3">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> tahamuhammd0308@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +923316288115</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./img/Taha CV.pdf" class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a class="btn-3" href="#"><i class="fa-solid fa-angle-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
